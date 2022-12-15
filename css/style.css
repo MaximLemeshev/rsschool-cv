@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600&family=Roboto:wght@400;700&family=Rubik:wght@400;700&display=swap');
 * {
   box-sizing: border-box;
-  font-family: Montserrat;
+  font-family: Poppins;
 }
 html {
   scroll-behavior: smooth;
@@ -48,8 +48,8 @@ a {
 }
 .header__image {
   width: 100%;
-  border-radius: 40px; 
-  border: 3px solid #666; 
+  border-radius: 40px;
+  border: 3px solid #666;
   box-shadow: 0 0 7px #666;
 }
 .header__content {
@@ -98,3 +98,60 @@ a {
 .header__subtitle {
   font-size: 22px;
 }
+.main-content__container {
+  display: flex;
+}
+.aside {
+  width: 30%;
+  padding: 20px 0 0 30px;
+  background-color: #7b7b7f;
+  color: #feae00;
+  display: flex;
+  flex-direction: column;
+}
+.side__link {
+  position: relative;
+  color: #fecb00;
+  margin-bottom: 5px;
+}
+
+.side__link:hover {
+  color: #fff;
+}
+.side__header {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.education {
+  margin-bottom: 20px;
+}
+.education__place {
+  margin-bottom: 20px;
+}
+.education__title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.education__descr {
+  padding-left: 15px;
+  font-size: 18px;
+}
+.skills__list {
+  display: flex;
+  flex-direction: column;
+}
+.skills__item {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  padding-left: 40px;
+  margin-bottom: 10px;
+  color: #fecb00;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: left center;
+}
+
