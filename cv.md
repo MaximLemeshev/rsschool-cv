@@ -46,3 +46,17 @@ Independently studied React hook technology and applied it in my projects
     return ar;
     }
 ```
+
+### Education and courses:
+
+1. Belarusian National Technical University Power Engineering
+2. Academy of Postgraduate Education Referent-interpreter(eng)
+3. Courses:
+   - ItShatle
+   - FreeCodeCamp
+   - HTML Academy
+
+### English
+
+- English - Intermediate (in progress)
+- Russian - Native
