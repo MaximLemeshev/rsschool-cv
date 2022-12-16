@@ -218,4 +218,37 @@ a {
   .side__link_black{
     color:#5b461a;
   }
+/*  */
 
+.footer__container {
+    background-color: #feae00;
+    display: flex;
+  }
+  .footer__content {
+    display: flex;
+    width: 70%;
+    height: 200px;
+    justify-content: space-around;
+  }
+  .footer__item {
+    display: flex;
+    align-items: center;
+  }
+  .footer__date {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .footer__image {
+    height: 120px;
+  }
+  .contacts {
+    width: 30%;
+    background-color: #7b7b7f;
+    padding: 0 0 0 30px;
+  }
+  .contacts__item {
+    padding-left: 15px;
+  }
